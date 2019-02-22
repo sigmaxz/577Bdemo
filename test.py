@@ -1,5 +1,5 @@
-import os 
+import demo
 
-os.run(demo.py)
+demo.run()
 
 exit()
