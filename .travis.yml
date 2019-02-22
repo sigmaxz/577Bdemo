@@ -15,4 +15,4 @@ branches:
 env:
   -DB=mysql
 
-script: ./test.py
+script: python test.py
