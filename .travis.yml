@@ -3,7 +3,6 @@ python:
   - '3.5'
 git:
   quiet: true
-	
 #blocklist
 branches:
   except:
@@ -13,5 +12,7 @@ branches:
   - stable
   #can use regular expressions
 
+env:
+  -DB=mysql
+
 script: ./test.py
-	
