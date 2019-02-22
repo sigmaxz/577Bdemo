@@ -1,3 +1,7 @@
+#apt addons:
+#cache components:
+#before install:
+#install:
 language: python 
 python:
   - '3.5'
@@ -15,4 +19,15 @@ branches:
 env:
   -DB=mysql
 
+#before_script
 script: python test.py
+
+#before_cache:
+after_success:
+
+after_failure:
+
+#before_deploy:
+#deploy:
+#after_deploy:
+#after_script:
