@@ -18,8 +18,9 @@ branches:
 
 env:
   -DB=mysql
+
 notifications:
-  slack: 'usccsse577:EhrArHzs6riLirQairaPDsZ4'
+  slack: "usccsse577:EhrArHzs6riLirQairaPDsZ4"
     on_success: always
   email:
     recipients:
