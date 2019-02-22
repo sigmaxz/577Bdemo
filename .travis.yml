@@ -20,8 +20,8 @@ env:
   -DB=mysql
 
 notifications:
-  slack: "usccsse577:EhrArHzs6riLirQairaPDsZ4"
-    on_success: always
+  #slack: "usccsse577:EhrArHzs6riLirQairaPDsZ4"
+  #  on_success: always
   email:
     recipients:
       - samuelvi@usc.edu
