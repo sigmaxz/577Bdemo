@@ -23,7 +23,8 @@ notifications:
   slack: usccsse577:EhrArHzs6riLirQairaPDsZ4
     on_success: always
   email:
-    -samuelvi@usc.edu
+    recipients:
+      - samuelvi@usc.edu
     on_success: never
     on_failure: always
     
