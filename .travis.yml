@@ -19,13 +19,13 @@ branches:
 env:
   -DB=mysql
 notifications:
-  slack: usccsse577:EhrArHzs6riLirQairaPDsZ4
+  slack: 'usccsse577:EhrArHzs6riLirQairaPDsZ4'
     on_success: always
   email:
     recipients:
-    - samuelvi@usc.edu
-    on_success: never
-    on_failure: always
+      - samuelvi@usc.edu
+    on_success: never # default: change
+    on_failure: always # default: always
     
 #before_script
 script: python test.py
