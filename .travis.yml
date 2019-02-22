@@ -1,16 +1,17 @@
 language: python 
 python:
-	- '3.5'
+  - '3.5'
 git:
-	quiet: true
+  quiet: true
 	
 #blocklist
 branches:
-	except:
-	- nogood
-	only:
-	- master
-	- stable
-	#can use regular expressions
-	
+  except:
+  - nogood
+  only:
+  - master
+  - stable
+  #can use regular expressions
+
+script: ./test.py
 	
